@@ -1,0 +1,43 @@
+nav{
+    display: inline;
+    box-sizing: border-box;
+    padding:10px;
+    margin: 10px;
+    content:20px;
+    background-color:#bea7be;
+  
+    
+}
+
+nav a{
+    font-weight: 500;
+    font-size: 18px;
+    color:black;
+    font-family: roboto;
+    
+
+  
+    }
+
+    header{
+        text-align:right;
+    }
+    
+    img{
+
+        height:250px;   
+            width:auto;
+            border-radius: 50%;
+    }
+
+   #name {
+     
+            height: 150px;
+         
+    background-color: rgb(209, 191, 208);
+    height: 150px;
+    width: 90%;
+    font-size: 20px;
+ 
+        
+    }
