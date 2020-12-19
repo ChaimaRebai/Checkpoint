@@ -1,47 +1,65 @@
-nav{
+body{
+        opacity: 0.9;
+    background-image: url("./res/Capture\ d’écran\ 2020-12-18\ 214739.png");
+      
+}
+
+#header{display: block;
     display: inline;
     box-sizing: border-box;
     padding:10px;
   
     content:20px;
+    background-color:white;
+}
+   /* Add a black background color to the top navigation */
+#header {
     background-color:#bea7be;
+    overflow: hidden;
+  }
   
+  /* Style the links inside the navigation bar */
+  #header a {
+    float: left;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color:wheat;
+
+    margin-top: 0px;
+    margin-bottom: 150px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  /* Change the color of links on hover */
+  #header a:hover {
+    background-color: whitesmoke;
+    color: black;
+  }
+
+  .text{
+      font-family: lobster;
+  }
+  #name{
+    margin-left: 10px;
+  }
+ 
+.grid-skills{
+    display: grid;
     
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    justify-content: space-around;
 }
 
-nav a{
-    font-weight: 500;
-    font-size: 18px;
-    color:black;
-    font-family: roboto;
-    
-
-  
-    }
-
-    header{
-        text-align:right;
-    }
-    
-    img{
-
-        height:250px;   
-            width:auto;
-            border-radius: 50%;
-    }
-
-   #name {
-     
-            height: 150px;
-         
-    background-color: rgb(209, 191, 208);
-    height: 150px;
-    width: 90%;
-    font-size: 20px;
- 
-        
-    }
-    section p{
-        text-align: center;
-        color:black;
+#button1{
+    display: grid;
+      justify-content: center; 
+}
+   #skills {
+display: flex;
+        align-content: center;
     }

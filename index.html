@@ -3,42 +3,52 @@
 
 <head> 
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
    <title> Chaima Rebai </title>  
 </head>
 
 <body>
-
+<section id="header"> 
    <header >
       <nav >
-       <a href="/home/"> home </a>
-       <a href="./about/"> about </a>
-       <a href="/work/"> work </a>
-       <a href="resume">resume</a>
-       <a href="contact">contact</a>
+       
+           <a href="/home/"> <strong>home </strong>  </a>
+           <a href="./about/"> <strong>about</strong></a>
+           <a href="/work/"> <strong>work</strong></a>
+           <a href="resume"><strong>resume</strong></a></a>
+           <a href="contact"><strong>contact</strong></a></a>
+     
       </nav>   
-   </header>   
-<div>
-   <section>
-       <p id="name">Hi my name is,<br>
-           <h3 id="name">Chaima Rebai.</h3>
-           <br> I'm a computer engineering student from Tunisia .
-       </p>
-       <iframe
-       width="420"
-       height="315"
-       src="https://www.youtube.com/embed/zcTFG_F0FRs"
-   ></iframe>
+   </header> 
+  </section>
+  <br> <br>
+
+  
+<div class="text" >
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+       <div style="background-color: wheat; margin-top: 40px;">
+
+         <p>Hi my name is,<br>   <h3 >Chaima Rebai.</h3> </p>
+           
+           <p> I'm a computer engineering student from Tunisia .</p>
+     </div>
    
-   </section>
+   
    </div>
-   <div>
-   <section>
-      <h2>about</h2>
-        <h2 style="color: blueviolet;">About Me </h2>
-        <img src="./res/mypicture.jpg" alt="my photo" > 
-         <p> Hello! i'm Chaima, Computer engineering student from Tunisia. <br>I have a passion for coding 
-            and challenging myself creatively .<br> I enjoy learning new skills daily and staying connected.
+
+   <div style="background-color: wheat; background-attachment:scroll;">
+  
+      <h2 style="font-family: lobster;">about</h2>
+        <h2 style="color:black; font-family: lobster;">About Me </h2>
+        
+         <p style="font-family: lobster;"> Hello! i'm Chaima, Computer engineering student from Tunisia. <br>I have a passion for coding 
+            and challenging myself creatively .<br> I enjoy learning new skills daily and staying connected
         </p>
+
+      
+<div  style="font-family: lobster;" class="grid-skills">
+  <div>
    <img src="./res/technical_skills.png" alt="..." >
   
  
@@ -50,7 +60,8 @@
         <li>python</li>
         <li>c,c++</li>
       </ul>
-
+</div>
+<div>
       <img src="./res/other_skills.png " alt="..." >
       
     <h4>OTHER SKILLS</h4>
@@ -60,52 +71,65 @@
         <li>Communication</li>
         <li>Time Management</li>
       </ul>
-   </section>
-</div> 
+      </div>
+    </div>
+    </div>
+   
 
-<div>
+
+<div style="background-color: wheat; font-family: lobster;">
   <section>
     <h2>work</h2> 
       <h3> <strong> What I do </strong></h3>
 
-      <button type="submit">See my work </button>
+      <button style="font-size: 20px;"   type="submit" >See my work </button>
 </section>
 </div>
 
 <div>
 <section>
-    <a href="./res/CV-REBAI Chaima.pdf" target="blank">Resume</a>
+    <a href="./res/CV-REBAI Chaima.pdf" target="blank" style="color:black; text-align: center; font-size: 20px;"> <strong>Resume</strong></a>
 </section>
 </div>
 
 <div>
-<section>
-    <h2>contact</h2>
+<section >
+    <h2 style="font-family: lobster;">contact</h2>
     <p>
-        <strong> Let's work together and create something lovely! </strong>
+        <strong style="font-family: lobster; display: grid ; justify-content: center;"> Let's work together and create something lovely! </strong>
     </p>
     <form>
-        <label>Name</label>
-        <input type="text" name="first name" placeholder="Type your name here"/>
+       <div style="display: grid;
+       justify-content: center;">
+        <input type="text" name="first name" placeholder="First Name"/>
         <br />
 
-        <label>Email</label>
+        
+        <input type="text" name="Last name" placeholder="Last Name"/>
+        <br />
+
+        
       <input type="texte" name=email placeholder="Type your Email here"/>
       <br />
+
+      
+      <input type="texte" name=Phone placeholder="Phone"/>
+      <br />
        
-      <input type="" name="" placeholder="Message" style="line-height: 100px;"  />
+      <input type="" name="" placeholder="Type your message here..." style="line-height: 100px;"  />
       <br> <br>
   </label> 
-
-      <button type="submit">Click here </button>
+</div>
+      <button id="button1"  type="submit">Click here </button>
         </form>
 
 </section>
         
-<a href="https://www.facebook.com/chaima.rebei/">FB</a>
+<a href="https://www.facebook.com/chaima.rebei/"><i class="fab fa-facebook"></i></a> 
 <a href="mailto:chaima.rebai01@gmail.com">E-mail</a>
-<a href="https://www.linkedin.com/in/chaima-rebai-99b7a11aa/">Linkedin</a>
-<footer>Designed and Build by Chaima Rebai </footer>
+<a href="https://www.linkedin.com/in/chaima-rebai-99b7a11aa/"><i class="fab fa-linkedin"></i></a>
+<br> 
+<footer style="font-family: lobster; text-align: center;">Designed and Build by Chaima Rebai </footer>
 </div>
 
 </body>
