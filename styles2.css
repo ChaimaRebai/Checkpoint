@@ -86,3 +86,143 @@ justify-content: space-around;
         align-content: space-around;
       
 }
+
+
+#images{
+ display:flex;
+flex-wrap: wrap;
+}
+h1, h2, h3, h4 {
+    display: block;
+    margin: 1em 0;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+
+.image{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    max-width: 975px;
+    margin: 0 auto;
+    column-gap: 20px;
+   
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+#title{
+    display: grid;
+    
+}
+
+h5{
+    color: #747474;
+ font-family: Roboto,Arial,sans-serif;
+ font-size: inherit;
+      
+}
+#button1{
+
+    background-color: #3d83df;
+    color: white;
+    font-size: 12px;
+    padding: 6px 6px;
+    width: 115px;
+    margin-bottom: 100px;
+
+     }
+     h1{
+        
+        font-size: 2.1428571429em;
+        columns: #333;
+        margin-bottom: .75em;
+        font-family: Work Sans,Arial,sans-serif;
+        font-weight: 300;
+        letter-spacing: -.3px;
+     }
+     .p1{
+        text-align: center;
+        font-size: .875em;
+        max-width: 460px;
+    margin: 0 auto 4.1875rem
+        
+     }
+     
+     .center{
+        text-align: center;
+        margin-top: 15px;
+     }
+     
+     #btn1{
+        background-color: #3d83df;
+        color: white;
+        font-size: 12px;
+        padding: 10px 10px;
+        width: 250px;
+        margin-bottom: 100px;
+         }
+
+     .grid-container2{
+     display: grid;
+     grid-template-columns: auto repeat(2,1fr);;
+     justify-content: center;
+     margin: 0 -10px;
+    
+     margin-top: 100px;
+     margin-bottom: 100px;
+     background: #e5faf8;
+     background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    padding: 150px;
+     overflow: hidden;
+     margin: 3.125rem auto 5.5rem;
+     }
+
+     .grid-container2 p{
+        font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+   
+    }
+
+    #box{
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+        height: 250px;
+        width: 210px;
+        text-align: center;
+        padding: 15px;
+        font-size: .8125em;
+        margin-bottom: 15px;
+        margin-top:15px ;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+#box img{
+    width:30px;
+    height: 40px;
+
+
+}
+     h3{
+        color: #00b39b;
+     }
+     footer{
+        font-size: 13px;
+        color: #ababab;
+        text-align: center;
+
+        margin-left:100px;
+        margin-right:100px ;
+        margin-top: px;
+        margin-bottom: 20px;
+
+     }
